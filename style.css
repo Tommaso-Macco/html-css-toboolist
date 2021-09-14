@@ -1,5 +1,25 @@
+/* Genral Settings */
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+/* Header Settings */
+
+header {
+    padding: 15px 10px 15px 15px;
+}
+
+.logotext {
+    height: 100px;
+    line-height: 100px;
+}
+
+span {
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 20px;
 }
