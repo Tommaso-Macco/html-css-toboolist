@@ -39,7 +39,11 @@ main {
     background-color: white;
     margin: auto;
     border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
+
+/* Section 1 */
 
 .conteiner-button {
     height: 60px;
@@ -49,6 +53,12 @@ main {
 .radius {
     border-radius: 10px;
     padding: 5px;
+}
+
+.radius2 {
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
 }
 
 .first {
@@ -64,4 +74,54 @@ main {
     border: 1px solid grey;
     color: grey;
     display: inline-block;
+}
+
+/* Section 2 */
+
+.sections {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.sections div {
+    font-size: 20px;
+    font-weight: 30px;
+}
+
+.margindiv {
+    margin-bottom: 30px;
+}
+
+.blue {
+    background-color: rgb(29, 100, 158);
+    font-size: 15px;
+}
+
+.purple {
+    background-color: rgb(122, 70, 180);
+    font-size: 15px;
+}
+
+.green {
+    background-color: rgb(93, 160, 118);
+    font-size: 15px;
+}
+
+.orange {
+    background-color: rgb(255, 166, 0);
+    font-size: 15px;
+}
+
+.pink {
+    background-color: rgb(165, 56, 92);
+    font-size: 15px;
+}
+
+.littlegreen {
+    background-color: rgb(79, 116, 25);
+    font-size: 15px;
+}
+
+.img {
+    height: 25px;
 }
