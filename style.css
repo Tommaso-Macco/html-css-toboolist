@@ -1,4 +1,4 @@
-/* Genral Settings */
+/* General Settings */
 
 * {
     margin: 0px;
@@ -14,12 +14,54 @@ header {
 
 .logotext {
     height: 100px;
-    line-height: 100px;
+    border-top: 1px solid grey;
 }
 
-span {
+.logotext img {
+    vertical-align: middle;
+}
+
+.logotext span {
     display: inline-block;
     line-height: 100px;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 50px;
+}
+
+/* Main Settings */
+
+main {
+    background-color: rgb(175, 225, 245);
+}
+
+#conteiner {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.conteiner-button {
+    height: 60px;
+    border-bottom: 1px solid rgb(175, 225, 245);
+}
+
+.radius {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.first {
+    background-color: rgb(29, 100, 158);
+    color: white;
+    display: inline-block;  
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 7px;
+}
+
+.second {
+    border: 1px solid grey;
+    color: grey;
+    display: inline-block;
 }
